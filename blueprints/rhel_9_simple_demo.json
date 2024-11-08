@@ -1,0 +1,74 @@
+{
+  "customizations": {
+    "custom_repositories": [
+      {
+        "baseurl": [
+          "https://dl.fedoraproject.org/pub/epel/9/Everything/x86_64/"
+        ],
+        "check_gpg": true,
+        "check_repo_gpg": false,
+        "gpgkey": [
+          "-----BEGIN PGP PUBLIC KEY BLOCK-----\n\nmQINBGE3mOsBEACsU+XwJWDJVkItBaugXhXIIkb9oe+7aadELuVo0kBmc3HXt/Yp\nCJW9hHEiGZ6z2jwgPqyJjZhCvcAWvgzKcvqE+9i0NItV1rzfxrBe2BtUtZmVcuE6\n2b+SPfxQ2Hr8llaawRjt8BCFX/ZzM4/1Qk+EzlfTcEcpkMf6wdO7kD6ulBk/tbsW\nDHX2lNcxszTf+XP9HXHWJlA2xBfP+Dk4gl4DnO2Y1xR0OSywE/QtvEbN5cY94ieu\nn7CBy29AleMhmbnx9pw3NyxcFIAsEZHJoU4ZW9ulAJ/ogttSyAWeacW7eJGW31/Z\n39cS+I4KXJgeGRI20RmpqfH0tuT+X5Da59YpjYxkbhSK3HYBVnNPhoJFUc2j5iKy\nXLgkapu1xRnEJhw05kr4LCbud0NTvfecqSqa+59kuVc+zWmfTnGTYc0PXZ6Oa3rK\n44UOmE6eAT5zd/ToleDO0VesN+EO7CXfRsm7HWGpABF5wNK3vIEF2uRr2VJMvgqS\n9eNwhJyOzoca4xFSwCkc6dACGGkV+CqhufdFBhmcAsUotSxe3zmrBjqA0B/nxIvH\nDVgOAMnVCe+Lmv8T0mFgqZSJdIUdKjnOLu/GRFhjDKIak4jeMBMTYpVnU+HhMHLq\nuDiZkNEvEEGhBQmZuI8J55F/a6UURnxUwT3piyi3Pmr2IFD7ahBxPzOBCQARAQAB\ntCdGZWRvcmEgKGVwZWw5KSA8ZXBlbEBmZWRvcmFwcm9qZWN0Lm9yZz6JAk4EEwEI\nADgWIQT/itE0RZcQbs6BO5GKOHK/MihGfAUCYTeY6wIbDwULCQgHAgYVCgkICwIE\nFgIDAQIeAQIXgAAKCRCKOHK/MihGfFX/EACBPWv20+ttYu1A5WvtHJPzwbj0U4yF\n3zTQpBglQ2UfkRpYdipTlT3Ih6j5h2VmgRPtINCc/ZE28adrWpBoeFIS2YAKOCLC\nnZYtHl2nCoLq1U7FSttUGsZ/t8uGCBgnugTfnIYcmlP1jKKA6RJAclK89evDQX5n\nR9ZD+Cq3CBMlttvSTCht0qQVlwycedH8iWyYgP/mF0W35BIn7NuuZwWhgR00n/VG\n4nbKPOzTWbsP45awcmivdrS74P6mL84WfkghipdmcoyVb1B8ZP4Y/Ke0RXOnLhNe\nCfrXXvuW+Pvg2RTfwRDtehGQPAgXbmLmz2ZkV69RGIr54HJv84NDbqZovRTMr7gL\n9k3ciCzXCiYQgM8yAyGHV0KEhFSQ1HV7gMnt9UmxbxBE2pGU7vu3CwjYga5DpwU7\nw5wu1TmM5KgZtZvuWOTDnqDLf0cKoIbW8FeeCOn24elcj32bnQDuF9DPey1mqcvT\n/yEo/Ushyz6CVYxN8DGgcy2M9JOsnmjDx02h6qgWGWDuKgb9jZrvRedpAQCeemEd\nfhEs6ihqVxRFl16HxC4EVijybhAL76SsM2nbtIqW1apBQJQpXWtQwwdvgTVpdEtE\nr4ArVJYX5LrswnWEQMOelugUG6S3ZjMfcyOa/O0364iY73vyVgaYK+2XtT2usMux\nVL469Kj5m13T6w==\n=Mjs/\n-----END PGP PUBLIC KEY BLOCK-----"
+        ],
+        "id": "15bcee12-5276-4748-ac4f-8baaee78fdae",
+        "name": "EPEL 9 Everything x86_64"
+      }
+    ],
+    "files": [
+      {
+        "data": "W1VuaXRdCkRlc2NyaXB0aW9uPVJ1biBmaXJzdCBib290IHNjcmlwdApDb25kaXRpb25QYXRoRXhpc3RzPS91c3IvbG9jYWwvc2Jpbi9jdXN0b20tZmlyc3QtYm9vdApXYW50cz1uZXR3b3JrLW9ubGluZS50YXJnZXQKQWZ0ZXI9bmV0d29yay1vbmxpbmUudGFyZ2V0CkFmdGVyPW9zYnVpbGQtZmlyc3QtYm9vdC5zZXJ2aWNlCgpbU2VydmljZV0KVHlwZT1vbmVzaG90CkV4ZWNTdGFydD0vdXNyL2xvY2FsL3NiaW4vY3VzdG9tLWZpcnN0LWJvb3QKRXhlY1N0YXJ0UG9zdD1tdiAvdXNyL2xvY2FsL3NiaW4vY3VzdG9tLWZpcnN0LWJvb3QgL3Vzci9sb2NhbC9zYmluL2N1c3RvbS1maXJzdC1ib290LmRvbmUKCltJbnN0YWxsXQpXYW50ZWRCeT1tdWx0aS11c2VyLnRhcmdldAo=",
+        "data_encoding": "base64",
+        "ensure_parents": true,
+        "path": "/etc/systemd/system/custom-first-boot.service"
+      },
+      {
+        "data": "IyEvYmluL2Jhc2gKCiMjIEVuYWJsZSBkZWJ1Z2dpbmcgZm9yIHRoaXMgYmFzaCBzY3JpcHQKc2V0IC14CgojIyBUZXN0IHdyaXRpbmcgYSBmaWxlIHdpdGggYSBzdGFydGluZyB0aW1lIHN0YW1wCmRhdGUgPiAvdmFyL3RtcC9pYi10ZXN0LnR4dAplY2hvICJIZWxsbywgd29ybGQhIiA+PiAvdmFyL3RtcC9pYi10ZXN0LnR4dAoKIyMgU2V0IG91ciBob3N0bmFtZQpob3N0bmFtZWN0bCBzZXQtaG9zdG5hbWUgImliLXRlc3QiCgojIyBUZXN0aW5nIGEgbG9nIG1lc3NhZ2UgdG8gdGhlIGpvdXJuYWwKIyMgVmlldyBsYXRlciB3aXRoIGBqb3VybmFsY3RsIC10IGJvb3R1cF9zY3JpcHRgCmxvZ2dlciAtdCBib290dXBfc2NyaXB0ICJIb3dkeSEgVGhpcyBpcyBhIHRlc3QgbWVzc2FnZSBmcm9tIHRoZSBib290dXAgc2NyaXB0LiIKCiMjIFRlc3QgdGhhdCB0aGUgc3lzdGVtIHJlZ2lzdGVyZWQgY29ycmVjdGx5CiMjIDI+JjEgY2FwdHVyZXMgb2Ygc3RvdXQgYW5kIHN0ZXJyCnJoYyBzdGF0dXMgPj4gL3Zhci90bXAvaWItdGVzdC50eHQgMj4mMQoKIyMgTk9UIFJFQ09NTUVOREVELCBidXQgYSBwYXNzd29yZCBjb3VsZCBiZSBlbWJlZGRlZAp1c2VyYWRkIC1HIHdoZWVsIHRlc3QgLXAgJyQ2JHVrNW1xMTd1ZURZRXlVSmckYVdpODlGVi5aLzBFQnF6Y0ZoNEF4U3VzVVRvbEF3L2JpZU5oOVNHUFRYY0pORDhML3RsQmNZUkRmRDV6bmdGcUxMRUc5SVVvbGpVL29LamhreWpydjAnCgojIyBWaWV3IHRoZSBzeXN0ZW1kIHNlcnZpY2Ugc3RhdHVzCnN5c3RlbWN0bCBzdGF0dXMgY3VzdG9tLWZpcnN0LWJvb3QgPj4gL3Zhci90bXAvaWItdGVzdC50eHQgMj4mMQoKIyMgRmluYWwgdGltZSBzdGFtcApkYXRlID4+IC92YXIvdG1wL2liLXRlc3QudHh0CgojIyBJdCBpcyBhIGdvb2QgaWRlYSB0byBoYXZlIHRoZSBwcm9wZXIgaG9zdG5hbWUgb2YgdGhlIHN5c3RlbSBzZXQgYmVmb3JlIHRoZSByZWdpc3RyYXRpb24gdG8gU2F0ZWxsaXRlIGhhcHBlbnMKIyMgSSB3aWxsIGp1c3QgcmFuZG9taXplIGl0IGhlcmUsIGJ1dCB0aGVyZSBhcmUgb3RoZXIgYmV0dGVyIG1ldGhvZHMuIEZlZWwgZnJlZSB0byBhZGFwdAojaG9zdG5hbWVjdGwgc2V0LWhvc3RuYW1lIGB7IGVjaG8gLW4gJChkYXRlICslcyVOKSB8IHNoYTI1NnN1bSB8IGhlYWQgLWMgMTAgOyBlY2hvIC1uICIubXlsYWIuY29tIiA7fWAKCiMjIFJlc3RhcnQgTmV0d29ya01hbmFnZXIgd2hlbiBydW5uaW5nIG9uIGxpYnZpcnQgdG8gdXBkYXRlIEZRRE4gaW4gbGlidmlydCBETlMKI3N5c3RlbWN0bCByZXN0YXJ0IE5ldHdvcmtNYW5hZ2VyCgojIFNob3VsZCBub3QgbmVlZCB0aGlzIGlmIGltYWdlIGJ1aWxkZXIgYXV0byBjb25maWd1cmVzIHJlZ2lzdHJhdGlvbgojIyBSZWdpc3RlciB3aXRoICdyaGMnIG9yIFJlZCBIYXQgU3Vic2NyaXB0aW9uIE1hbmFnZXIKIyMgTm90ZSwgdGhpcyBpcyBub3QgbmVlZCBpbiBJbnNpZ2h0cyBpbWFnZSBidWlsZGVyIAojIyBhcyBpdCBwcm92aWRlcyBhbiBlYXNpZXIgbWV0aG9kIGluIHRoZSBVSS4KI3JoYyBjb25uZWN0IC0tb3JnYW5pemF0aW9uIE9SR0lEIC0tYWN0aXZhdGlvbi1rZXkgS0VZCiMgc3Vic2NyaXB0aW9uLW1hbmFnZXIgcmVnaXN0ZXIgIC0tb3JnPU9SR0lEIC0tYWN0aXZhdGlvbmtleT1LRVkKCiMjIFJlZ2lzdGVyIHRvIFNhdGVsbGl0ZSB1c2luZyB0aGUgZ2xvYmFsIHJlZ2lzdHJhdGlvbiBjb21tYW5kLiBMb2dpbiB0byBTYXRlbGxpdGUgYW5kIGdlbmVyYXRlIHRoZSByZWdpc3RyYXRpb24gY29tbWFuZAojIHNldCAtbyBwaXBlZmFpbCAmJiBjdXJsIC1zUyAtLWluc2VjdXJlICdodHRwczovL3NhdGVsbGl0ZS5teWxhYi5jb20vcmVnaXN0ZXI/YWN0aXZhdGlvbl9rZXlzPXByb2R1Y3Rpb25fYWsmZm9yY2U9dHJ1ZSZsb2NhdGlvbl9pZD0yJm9yZ2FuaXphdGlvbl9pZD0xJnNldHVwX2luc2lnaHRzPXRydWUmc2V0dXBfcmVtb3RlX2V4ZWN1dGlvbj10cnVlJnVwZGF0ZV9wYWNrYWdlcz1mYWxzZScgLUggJ0F1dGhvcml6YXRpb246IEJlYXJlciBleUpoYkdjaU9pSklVekkxTmlKOS5leUoxYzJWeVgybGtJam8wTENKcFlYUWlPakUzTVRZd01UazFOelFzSW1wMGFTSTZJbVl4TUdKbU1EWmlOV1V5TURjd056WmlPVE16TlRjd09USTJObVZrTUdNd04yRTNOVFkxTmpNMU1HTTBPVFk1TnpjMk5HRTFOV0kzWkRkbE9XWmpPV1FpTENKelkyOXdaU0k2SW5KbFoybHpkSEpoZEdsdmJpTm5iRzlpWVd3Z2NtVm5hWE4wY21GMGFXOXVJMmh2YzNRaWZRLjlHX01XYjNHQ3oybDB3OFdBRjhCMWk3YUFVS0dJUWduLTdBN0Y3V2U3Q28nIHwgYmFzaAoKCg==",
+        "data_encoding": "base64",
+        "ensure_parents": true,
+        "mode": "0774",
+        "path": "/usr/local/sbin/custom-first-boot"
+      }
+    ],
+    "packages": [
+      "ansible-core",
+      "fastfetch",
+      "fastfetch-bash-completion",
+      "vim-enhanced",
+      "vim-ansible",
+      "bash-completion",
+      "podman",
+      "podman-docker",
+      "podman-compose",
+      "podman-plugins",
+      "cockpit-podman",
+      "rhc",
+      "rhc-worker-playbook",
+      "cockpit-storaged",
+      "subscription-manager-cockpit",
+      "cockpit-navigator",
+      "cockpit-packagekit",
+      "rhel-system-roles"
+    ],
+    "payload_repositories": [
+      {
+        "baseurl": "https://dl.fedoraproject.org/pub/epel/9/Everything/x86_64/",
+        "check_gpg": true,
+        "check_repo_gpg": false,
+        "gpgkey": "-----BEGIN PGP PUBLIC KEY BLOCK-----\n\nmQINBGE3mOsBEACsU+XwJWDJVkItBaugXhXIIkb9oe+7aadELuVo0kBmc3HXt/Yp\nCJW9hHEiGZ6z2jwgPqyJjZhCvcAWvgzKcvqE+9i0NItV1rzfxrBe2BtUtZmVcuE6\n2b+SPfxQ2Hr8llaawRjt8BCFX/ZzM4/1Qk+EzlfTcEcpkMf6wdO7kD6ulBk/tbsW\nDHX2lNcxszTf+XP9HXHWJlA2xBfP+Dk4gl4DnO2Y1xR0OSywE/QtvEbN5cY94ieu\nn7CBy29AleMhmbnx9pw3NyxcFIAsEZHJoU4ZW9ulAJ/ogttSyAWeacW7eJGW31/Z\n39cS+I4KXJgeGRI20RmpqfH0tuT+X5Da59YpjYxkbhSK3HYBVnNPhoJFUc2j5iKy\nXLgkapu1xRnEJhw05kr4LCbud0NTvfecqSqa+59kuVc+zWmfTnGTYc0PXZ6Oa3rK\n44UOmE6eAT5zd/ToleDO0VesN+EO7CXfRsm7HWGpABF5wNK3vIEF2uRr2VJMvgqS\n9eNwhJyOzoca4xFSwCkc6dACGGkV+CqhufdFBhmcAsUotSxe3zmrBjqA0B/nxIvH\nDVgOAMnVCe+Lmv8T0mFgqZSJdIUdKjnOLu/GRFhjDKIak4jeMBMTYpVnU+HhMHLq\nuDiZkNEvEEGhBQmZuI8J55F/a6UURnxUwT3piyi3Pmr2IFD7ahBxPzOBCQARAQAB\ntCdGZWRvcmEgKGVwZWw5KSA8ZXBlbEBmZWRvcmFwcm9qZWN0Lm9yZz6JAk4EEwEI\nADgWIQT/itE0RZcQbs6BO5GKOHK/MihGfAUCYTeY6wIbDwULCQgHAgYVCgkICwIE\nFgIDAQIeAQIXgAAKCRCKOHK/MihGfFX/EACBPWv20+ttYu1A5WvtHJPzwbj0U4yF\n3zTQpBglQ2UfkRpYdipTlT3Ih6j5h2VmgRPtINCc/ZE28adrWpBoeFIS2YAKOCLC\nnZYtHl2nCoLq1U7FSttUGsZ/t8uGCBgnugTfnIYcmlP1jKKA6RJAclK89evDQX5n\nR9ZD+Cq3CBMlttvSTCht0qQVlwycedH8iWyYgP/mF0W35BIn7NuuZwWhgR00n/VG\n4nbKPOzTWbsP45awcmivdrS74P6mL84WfkghipdmcoyVb1B8ZP4Y/Ke0RXOnLhNe\nCfrXXvuW+Pvg2RTfwRDtehGQPAgXbmLmz2ZkV69RGIr54HJv84NDbqZovRTMr7gL\n9k3ciCzXCiYQgM8yAyGHV0KEhFSQ1HV7gMnt9UmxbxBE2pGU7vu3CwjYga5DpwU7\nw5wu1TmM5KgZtZvuWOTDnqDLf0cKoIbW8FeeCOn24elcj32bnQDuF9DPey1mqcvT\n/yEo/Ushyz6CVYxN8DGgcy2M9JOsnmjDx02h6qgWGWDuKgb9jZrvRedpAQCeemEd\nfhEs6ihqVxRFl16HxC4EVijybhAL76SsM2nbtIqW1apBQJQpXWtQwwdvgTVpdEtE\nr4ArVJYX5LrswnWEQMOelugUG6S3ZjMfcyOa/O0364iY73vyVgaYK+2XtT2usMux\nVL469Kj5m13T6w==\n=Mjs/\n-----END PGP PUBLIC KEY BLOCK-----",
+        "rhsm": false
+      }
+    ],
+    "services": {
+      "enabled": [
+        "custom-first-boot"
+      ]
+    }
+  },
+  "description": "A simple demo of an image and blueprints.",
+  "distribution": "rhel-9",
+  "metadata": {
+    "exported_at": "2024-11-08 13:30:24.272331043 +0000 UTC",
+    "parent_id": "3ba4ce40-095f-4ae5-ab1e-aa1ec2bad763"
+  },
+  "name": "RHEL_9_Simple_Demo"
+}
